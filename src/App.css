@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./components/pokemon_forest.jpg");
+}
+.card {
+    width: 250px;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    backdrop-filter: blur(1000px);
+    background-color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;    
+    color: #d90429;
+}
+.card h1{
+    text-shadow:2px 2px gray;
+
+}
+
+.card img {
+    width: 50%;
+}
+
+.card ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: normal;
+    color: black;
+}
+
+.card button {
+    background-color: #d90429;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+.card button:hover {
+    background-color: white;
+    color: #d90429;
+    border: 1px solid #d90429;
+    border-radius: 10px;
+}
